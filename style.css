@@ -11,7 +11,6 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #F5F5F5;
 }
-
 .navbar {
     width: 100%;
     height: 100px;
@@ -22,39 +21,32 @@ body {
     background-color: #080D0E;
     border-bottom: 1px solid #222A2A;
 }
-
 .logo {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-
 .logo span {
     font-size: 30px;
 }
-
 .logo h1 {
     font-size: 35px;
     letter-spacing: 3px;
 }
-
 .nav-links {
     display: flex;
     gap: 35px;
     list-style: none;
 }
-
 .nav-links a {
     color: #8D9694;
     font-size: 20px;
     transition: 0.3s;
     text-decoration: none;
 }
-
 .nav-links a:hover {
     color: #F5F5F5;
 }
-
 .book-button {
     border: none;
     padding: 12px 22px;
@@ -76,16 +68,13 @@ body {
     padding: 60px 5%;
     gap: 100px;
 }
-
 .hero-section .film-info {
     width: 45%;
 }
-
 .hero-section .film-info h2 {
     font-size: 55px;
     margin-bottom: 10px;
 }
-
 .hero-section .film-info .hero-button {
     margin-top: 15px;
     padding: 14px 30px;
@@ -98,20 +87,17 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
-
 .book-button:hover,
 .hero-section .film-info .hero-button:hover {
     transform: translateY(-3px);
     background-color: #e59c55;
     box-shadow: 0 5px 15px rgba(216, 138, 61, 0.3);
 }
-
 .hero-section .headshot {
     display: flex;
     justify-content: center;
     width: auto;
 }
-
 .hero-section .headshot img {
     width: 330px;
     height: 480px;
@@ -120,19 +106,16 @@ body {
     border: 8px solid #080D0E;
     box-shadow: 0 20px 40px -10px rgba(216, 138, 61, 0.15);
 }
-
 .tagline {
     font-size: 20px;
     color: #D88A3D;
     margin-bottom: 20px;
 }
-
 .movie-meta {
     font-size: 16px;
     color: #8D9694;
     margin: 8px 0;
 }
-
 .description {
     margin-top: 20px;
     max-width: 500px;
@@ -142,17 +125,14 @@ body {
 }
 
 /* Booking Section */
-
 .booking-section {
     padding: 60px 5%;
 }
-
 .booking-section h2 {
     font-size: 35px;
     margin-bottom: 30px;
     text-align: center;
 }
-
 .booking-card {
     max-width: 900px;
     margin: 0 auto;
@@ -161,25 +141,21 @@ body {
     border: 1px solid #222A2A;
     border-radius: 15px;
 }
-
 .booking-options {
     display: flex;
     gap: 30px;
 }
-
 .booking-item {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-
 .booking-item label {
     font-size: 15px;
     color: #B8C0BE;
     font-weight: 500;
 }
-
 .booking-item input,
 .booking-item select {
     width: 100%;
@@ -191,25 +167,21 @@ body {
     font-size: 15px;
     outline: none;
 }
-
 .booking-item input:focus,
 .booking-item select:focus {
     border-color: #D88A3D;
 }
-
 .price-summary {
     margin-top: 30px;
     padding-top: 20px;
     border-top: 1px solid #222A2A;
 }
-
 .price-summary p {
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
     color: #8D9694;
 }
-
 .price-summary p:last-child {
     margin-top: 20px;
     padding-top: 15px;
@@ -218,7 +190,6 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
-
 .confirm-button {
     width: 100%;
     margin-top: 30px;
@@ -232,7 +203,6 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
-
 .confirm-button:hover {
     background-color: #e59c55;
     transform: translateY(-3px);
@@ -240,24 +210,20 @@ body {
 }
 
 /* Movies Section */
-
 .movies-section {
     padding: 80px 5%;
     margin-top: 30px;
 }
-
 .movies-section h2 {
     text-align: center;
     font-size: 35px;
     margin-bottom: 35px;
 }
-
 .movies-container {
     display: flex;
     gap: 25px;
     justify-content: center;
 }
-
 .movie-card {
     width: 220px;
     background-color: #111819;
@@ -266,7 +232,6 @@ body {
     overflow: hidden;
     transition: 0.3s;
 }
-
 .movie-card img {
     width: 100%;
     height: 280px;
@@ -274,29 +239,24 @@ body {
     display: block;
     transition: 0.3s;
 }
-
 .movie-card-info {
     padding: 18px;
 }
-
 .movie-card-info h3 {
     font-size: 19px;
     margin-bottom: 10px;
     color: #F5F5F5;
 }
-
 .movie-card-info p {
     font-size: 14px;
     color: #8D9694;
     margin: 6px 0;
 }
-
 .movie-card:hover {
     transform: translateY(-8px);
     border-color: #D88A3D;
     box-shadow: 0 15px 30px rgba(216, 138, 61, 0.15);
 }
-
 .movie-card:hover img {
     transform: scale(1.05);
 }
@@ -309,25 +269,189 @@ body {
     background-color: #060A0B;
     border-top: 1px solid #222A2A;
 }
-
 .footer-content {
     text-align: center;
 }
-
 .footer-content h2 {
     font-size: 28px;
     letter-spacing: 3px;
     margin-bottom: 10px;
 }
-
 .footer-content p {
     color: #8D9694;
     font-size: 14px;
     margin: 8px 0;
 }
-
 .footer-content .copyright {
     margin-top: 25px;
     font-size: 15px;
     color: #5F6866;
+}
+
+
+@media (max-width: 900px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 0 3%;
+    }
+    .nav-links {
+        gap: 20px;
+    }
+    .nav-links a {
+        font-size: 17px;
+    }
+    .logo h1 {
+        font-size: 28px;
+    }
+
+    .hero-section {
+        gap: 40px;
+        padding: 50px 5%;
+    }
+    .hero-section .film-info {
+        width: 50%;
+    }
+    .hero-section .film-info h2 {
+        font-size: 45px;
+    }
+    .hero-section .headshot img {
+        width: 280px;
+        height: 410px;
+    }
+    .movies-container {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+    .navbar {
+        height: auto;
+        min-height: 80px;
+        padding: 20px 5%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .logo h1 {
+        font-size: 25px;
+    }
+    .logo span {
+        font-size: 25px;
+    }
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+        order: 3;
+    }
+    .nav-links a {
+        font-size: 15px;
+    }
+    .book-button {
+        padding: 10px 18px;
+        font-size: 13px;
+    }
+
+
+    .hero-section {
+        flex-direction: column;
+        padding: 45px 5%;
+        gap: 40px;
+        text-align: center;
+    }
+    .hero-section .film-info {
+        width: 100%;
+    }
+    .hero-section .film-info h2 {
+        font-size: 42px;
+    }
+    .tagline {
+        font-size: 18px;
+    }
+    .movie-meta {
+        font-size: 15px;
+    }
+    .description {
+        margin: 20px auto 0;
+        font-size: 16px;
+    }
+    .hero-section .headshot {
+        width: 100%;
+    }
+    .hero-section .headshot img {
+        width: 280px;
+        height: 400px;
+    }
+
+
+    .booking-section {
+        padding: 50px 5%;
+    }
+    .booking-section h2 {
+        font-size: 30px;
+    }
+    .booking-card {
+        padding: 25px;
+    }
+    .booking-options {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+    .movies-section {
+        padding: 60px 5%;
+    }
+    .movies-section h2 {
+        font-size: 30px;
+    }
+    .movies-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    .movie-card {
+        width: 280px;
+    }
+    .movie-card img {
+        height: 360px;
+    }
+
+    .footer {
+        margin-top: 40px;
+        padding: 40px 5%;
+    }
+    .footer-content h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo h1 {
+        font-size: 22px;
+    }
+    .nav-links {
+        gap: 12px;
+    }
+    .nav-links a {
+        font-size: 13px;
+    }
+    .hero-section .film-info h2 {
+        font-size: 36px;
+    }
+    .hero-section .headshot img {
+        width: 240px;
+        height: 350px;
+    }
+    .booking-card {
+        padding: 20px;
+    }
+    .movie-card {
+        width: 250px;
+    }
+    .movie-card img {
+        height: 320px;
+    }
 }
