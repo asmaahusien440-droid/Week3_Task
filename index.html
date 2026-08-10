@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "movement.js" defer ></script>
+    <link rel = "stylesheet" href="style.css">
+    <title>Cinema's Booking</title>
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class = "navbar">
+       <div class = "logo">
+           <span>🎬</span> 
+           <h1>Cinema</h1>
+       </div>
+       <ui class = "nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Booking</a></li>
+        <li><a href="#">About</a></li>
+      </ui>
+      <button class="book-button">Book Ticket</button>
+    </nav>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="film-info">
+                <h2>OBSESSION</h2>
+
+                <p class="tagline">A wish. A love. A nightmare.</p>
+
+                <p class="movie-meta">Horror • Psychological Thriller</p>
+
+                <p class="movie-meta">⭐ 7.7/10</p>
+
+                <p class="movie-meta">109 min</p>
+
+                <p class="description"> A simple wish for love becomes a terrifying obsession.</p>
+                <button class="book-button hero-button">Get Your Ticket</button>
+            </div>
+
+            <div class="headshot">
+               <img src="The_photo.jpg" alt="Film Headshot">   
+            </div>
+        </section> 
+
+        <!-- Booking Section -->
+        <section class="booking-section">
+
+         <h2>Book Your Ticket</h2>
+
+         <div class="booking-card">
+
+            <div class="booking-options">
+                <div class="booking-item">
+                   <label for="ticket-count">Number of Tickets</label>
+                   <input type="number" id="ticket-count" min="1" max="10">
+                </div>
+
+                <div class="booking-item">
+                   <label for="hall">Choose Hall</label>
+
+                   <select id="hall">
+                     <option value="1">Hall A</option>
+                     <option value="2">Hall B</option>
+                     <option value="3">VIP Hall</option>
+                   </select>
+                </div>
+
+            </div>
+           <div class="price-summary">
+               <p>Ticket Price: <span>150 EGP</span></p>
+               <p>Original Total: <span>750 EGP</span></p>
+               <p>Discount: <span>75 EGP</span></p>
+               <p>Final Price: <span>675 EGP</span></p>
+            </div>
+            <button class="confirm-button">Confirm Booking</button>
+
+           </div>
+
+        </section>
+
+        <!--Recommended Movies-->
+        <section class="movies-section">
+            <h2>You May Also Like</h2>
+
+            <div class="movies-container">
+                <div class="movie-card">
+                    <img src="hereditary.jpg" alt="Hereditary">
+                    <div class="movie-card-info">
+                        <h3>Hereditary</h3>
+                        <p>⭐ 7.3/10</p>
+                        <p>Horror • Psychological</p>
+                    </div>
+                </div>
+
+
+                <div class="movie-card">
+                    <img src="the-ivisivle-man.jpg" alt="The Invisible Man">
+                    <div class="movie-card-info">
+                        <h3>The Invisible Man</h3>
+                        <p>⭐ 7.0/10</p>
+                        <p>Horror • Psychological Thriller</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                   <img src="talk-to-me.jpg" alt="Talk to Me">
+                   <div class="movie-card-info">
+                        <h3>Talk to Me</h3>
+                        <p>⭐ 6.8/10</p>
+                        <p>Horror • Psychological</p>
+                    </div>
+                </div>
+
+
+               <div class="movie-card">
+                    <img src="black-phone.jpg" alt="The Black Phone">
+                    <div class="movie-card-info">
+                        <h3>The Black Phone</h3>
+                        <p>⭐ 6.9/10</p>
+                       <p>Horror • Thriller</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>CINEMA</h2>
+            <p>Your movie night starts here.</p>
+            <p class="copyright">© 2026 Cinema. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
